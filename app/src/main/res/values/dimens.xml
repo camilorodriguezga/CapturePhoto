@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="ly_size_80dp">80dp</dimen>
+    <dimen name="btn_margin_10dp">10dp</dimen>
+    <dimen name="btn_elevation_15dp">15dp</dimen>
+    <dimen name="margin_size_56dp">56dp</dimen>
+</resources>

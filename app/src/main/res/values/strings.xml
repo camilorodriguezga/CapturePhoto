@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CapturePhoto</string>
+    <string name="text_alert_tittle_gps_enable">Habilitar servicio GPS</string>
+    <string name="accept">Aceptar</string>
+    <string name="title_toast">"Información"</string>
+    <string name="enable_permissions_message_alert">CapturePhoto necesita tomar fotos con localización</string>
+    <string name="text_alert_gps_enable">Tu servicio de ubicación está desactivado, debes habilitarlo para poder recibir servicios, ¿Desea activarlo?</string>
+    <string name="photo_taken">Foto tomada</string>
+</resources>

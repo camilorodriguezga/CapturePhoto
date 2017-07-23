@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:background="#cc000000"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Translucent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border_message_alert"
+        android:orientation="vertical"
+        android:layout_marginBottom="167dp"
+        android:layout_above="@+id/btn_accept"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="10"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/font_size_16sp" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="10"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/font_size_16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_size_56dp"
+        android:padding="@dimen/btn_margin_10dp"
+        android:background="@drawable/border_message_alert"
+        android:text="@string/accept" />
+
+</RelativeLayout>
